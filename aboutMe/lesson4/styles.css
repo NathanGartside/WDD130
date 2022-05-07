@@ -1,0 +1,31 @@
+.coolDataList {
+    background-color: orange;
+}
+
+.coolDataList dt {
+    font-weight: 900;
+}
+
+.coolDataList dd{
+    font-style: italic;
+}
+
+.coolDataList dt, .coolDataList dd {
+    color: rgb(50, 177, 45);
+}
+
+.listContainer{
+width: 90%;
+margin: 0 auto;
+background-color: rgb(157, 101, 27);
+border: 1px solid blue;
+}
+
+.listContainer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.listContainer ul li{
+    float: left;
+}
