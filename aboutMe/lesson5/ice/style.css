@@ -49,6 +49,17 @@ body {
 
 img {
     width: 150px;
+    transition: transform 2s;
+}
+
+.pageContent:hover img, .pageContent:hover h1{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+
+.pageContent img, .pageContent h1{
+    transform: rotate(0deg);
+    transition: transform 2s;
 }
 
 footer {
