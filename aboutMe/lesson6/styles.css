@@ -1,0 +1,61 @@
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Top {
+    margin: 0 auto;
+    width: 60%;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.middle {
+    margin: 0 auto;
+    width: 70%;
+    background-color: blue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 85%;
+    background-color: green;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.box {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.row {
+    float: left;
+    background-color: green;
+}
+
+.left{
+    float: left;
+    width: 15%;
+    padding: 20px;
+    height: 60px;
+}
+
+.right {
+    float: right;
+    width: 15%;
+    padding: 20px;
+    height: 60px;
+}
+
+
+
+
