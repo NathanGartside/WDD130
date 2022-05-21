@@ -9,8 +9,8 @@ body {
 }
 
 .column {
-    float: left;
-    width: 33.33%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: #737373;
     height: 40%;
 }
