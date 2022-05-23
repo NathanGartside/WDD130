@@ -15,11 +15,6 @@ body {
     height: 40%;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 img {
     display: block;
