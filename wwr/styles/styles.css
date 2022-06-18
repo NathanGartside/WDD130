@@ -106,7 +106,7 @@ footer a {
 }
 
 h4 {
-    color: black;
+    color: white;
 }
 
 .msg h2, .msg p {
@@ -235,6 +235,10 @@ main {
     grid-row: 6/7;
 }
 
+.hero-title {
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -255,6 +259,7 @@ main {
     }
     #hero-msg h4 {
         display: none;
+        color: white;
     }
     .home-title {
         font-size: 25px;
