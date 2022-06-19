@@ -239,6 +239,39 @@ main {
     color: #FFFFFF;
 }
 
+.body {
+    background-color: #177EA6;
+}
+
+.text, .title, .subtitle{
+    color: #FFFFFF;
+}
+
+.subpage h1 {
+    text-align: center;
+}
+
+.page2_parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.parent_image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
