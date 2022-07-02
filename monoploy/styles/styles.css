@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+h1, h1, a{
+    font-family: "Bebas Neue";
+    color: #087CC0;
+}
+
+h3, li, label {
+    font-family: "Open Sans";
+    color: #087CC0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: black;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+a {
+    text-decoration: none;
+    font-size: 35px;
+}
+
+nav a {
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+
+footer h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
