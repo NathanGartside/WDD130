@@ -37,13 +37,44 @@ nav a {
 
 footer {
     display: grid;
-    background-color: black;
+    background-color: #087CC0;
     grid-template-columns: 1fr 1fr;
     height: 200px;
 }
 
-footer h3 {
+footer h3, footer a {
     margin: auto;
     text-align: center;
     font-size: 35px;
+    color: black;
+    font-family: "Open Sans";
+}
+
+.hero img{
+    width: 80%;
+}
+
+body {
+    background-color: black;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    height: 1202px;
+}
+
+.hero h1 {
+    z-index: 3;
+    position: absolute;
+    top: 400px;
+    right: 550px;
+    font-size: 60px;
+}
+
+.room {
+    position: absolute;
+    bottom: 400px;
+    right: 450px;
+    font-size: 30px;
 }
