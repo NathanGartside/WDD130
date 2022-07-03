@@ -78,3 +78,19 @@ body {
     right: 450px;
     font-size: 30px;
 }
+
+.hero h1, .hero h3, .hero label {
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.room h3 {
+    color: #087CC0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .25px;
+}
+
+.background {
+    background-color: white;
+    opacity: .5;
+}
