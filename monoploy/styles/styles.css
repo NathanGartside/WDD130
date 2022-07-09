@@ -52,6 +52,9 @@ footer h3, footer a {
 
 .hero img{
     width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -93,4 +96,83 @@ body {
 .background {
     background-color: white;
     opacity: .5;
+}
+
+.titles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titles h1{
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rules {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hover{
+    position: relative;
+    background-color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover:hover .overlay {
+    opacity: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.settings {
+    position: relative;
+}
+
+.settings_label {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 30px;
+}
+
+.settings_button {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 30px;
+    background-color: #008CBA;
+    border-radius: 40%;
 }

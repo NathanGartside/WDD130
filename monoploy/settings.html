@@ -26,31 +26,51 @@
             <h1>Rule Sets</h1>
             <h1>Settings</h1>
         </div>
-        <div class = "rules">
-            <img src="./images/monocle.png" alt="Classic rules">
-            <h3>Classic Rules</h3>
-            <img src="./images/Jail.png" alt="No Rent in Jail">
-            <h3>No Rent in Jail</h3>
-            <img src="./images/Parking.png" alt="Parking">
-            <h3>Free Parking Money</h3>
-            <img src="./images/Auction.jpg" alt="Auction">
-            <h3>Auction Only</h3>
-        </div>
-        <div class="settings">
-            <form>
-                <label for="nname">Number of Players</label>
-                <input type="text" id="nname" name="nname"><br>
-                <label for="mname">Starting amount of money</label>
-                <input type="text" id="mname" name="mname"><br>
-                <label for="pname">Password</label>
-                <input type="text" id="pname" name="pname"><br>
-            </form>
-            <button>Create Game</button>
+        <div class = "container">
+            <div class = "rules">
+                <div class="hover">
+                    <img src="./images/monocle_2.png" alt="Classic rules">
+                    <div class="overlay">
+                        <h3 class = "text">Classic Rules</h3>
+                    </div>
+                </div>
+                <div class="hover">
+                    <img src="./images/Parking_2.png" alt="Parking">
+                    <div class="overlay">
+                        <h3 class = "text">Free Parking Money</h3>
+                    </div>
+                </div>
+                <div class="hover">
+                    <img src="./images/jail_2.png" alt="No Rent in Jail">
+                    <div class="overlay">
+                        <h3 class = "text">No Rent in Jail</h3>
+                    </div>
+                </div>
+                <div class="hover">
+                    <img src="./images/Auction_2.jpg" alt="Auction">
+                    <div class="overlay">
+                        <h3 class = "text">Auction Only</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="settings">
+                <form class="settings_label">
+                    <label for="nname">Number of Players</label>
+                    <input type="text" id="nname" name="nname"><br>
+                    <label for="mname">Starting amount of money</label>
+                    <input type="text" id="mname" name="mname"><br>
+                    <label for="pname">Password</label>
+                    <input type="text" id="pname" name="pname"><br>
+                </form>
+                <button class="settings_button">Create Game</button>
+            </div>
         </div>
     </main>
     <footer>
         <h3>Monopoly is owned by Hasbro</h3>
         <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="index.html">Home Page</a></h3>
+        <h3><a href="game.html">The Board</a></h3>
     </footer>
 </body>
 </html>
