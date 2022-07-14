@@ -176,3 +176,98 @@ img {
     background-color: #008CBA;
     border-radius: 40%;
 }
+
+.board_main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 376px 376px 376px;
+}
+
+.green, .red {
+    width: 40px;
+    position: absolute;
+    bottom: 115px;
+}
+
+.dice {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boardImg {
+    position: relative;
+}
+
+.board {
+    position: relative;
+    grid-row: 1/4;
+}
+
+.green.one {
+    left: 170px;
+}
+
+.green.two {
+    left: 265px;
+}
+
+.green.three {
+    left: 450px;
+}
+
+.red.one {
+    left: 730px;
+}
+
+.red.two {
+    left: 910px;
+}
+
+.Users {
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+}
+
+.userProperty {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 20px;
+}
+
+.trade, .roll{
+    font-size: 20px;
+    background-color: #087CC0;
+}
+
+.rollDice {
+    text-align: center;
+}
+
+.diceImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rulesMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ruleSets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 10% 90%;
+}
+
+.ruleSets h1 {
+    font-size: 20px;
+}
+
+.ruleSets h3 {
+    font-size: 15px;
+}
